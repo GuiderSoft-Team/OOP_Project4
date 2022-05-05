@@ -70,6 +70,6 @@ public class Musteri {
 
     @Override
     public String toString() {
-        return String.format("[%d] %s %s %s %7.2f", no, adi, tel, email, borcu);
+        return String.format("[%d] %s %s %s %5.2f", no, adi, tel, email, borcu);
     }
 }
