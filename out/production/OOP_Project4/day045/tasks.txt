@@ -1,0 +1,50 @@
+TASKS
+Task 1: Personel takibi
+- Bir Personel sınıfı tasarlayınız.
+- Sicil Numarası:String, Adı:String, Soyadı:String ve Maaşı:double gibi bilgiler tutulsun.
+- Parametreli ve parametresiz iki kurucu metot tasarlayınız.
+- Maaşa belirli bir yüzde ile zam yapan maasaZamYap(oran:int) metodunu tasarlayınız.
+- Maaşa belirli bir miktarda zam yapan maasaZamYap(miktar:double) metodunu tasarlayınız.
+- Yıllık brüt maaşı hesaplayan getBrütMaas(vergiOrani:int) metodunu tasarlayınız.
+- Güzel bir görünüm için toString metodunu override ediniz.
+- Toplam personel adedini tutan bir yapı tasarlayınız.
+Konular:
+    class ve object ayrımı,
+    getter/setter,
+    encapsulation,
+    Metot tasarımı,
+    Constructors,
+    overload,
+    override
+
+
+Task 2: Bir Müşteri Takip Programı yazılacaktır.
+- Musteri sınıfını tasarlayınız.
+- no:int, adi:String, tel:String, email:String, borcu:double alanlarını tanımlayınız.
+- Parametresiz kurucu metot yazılacaktır.
+- Parametreleri no ve adi olan bir kurucu metot tasarlayınız.
+- Tüm alanlar için getter ve setter metotlarını yazınız.
+- Güzel bir görünüm için toString metodunu override ediniz.
+- Müşteriden alacak tahsili yapabilmek için tahsilatYap(miktar:double) metodunu yazınız.
+  Belirtilen miktar kadar borçtan düşülecektir.
+- Müşteriye email göndermek için emailGonder(konu:String,mesaj:String) metodunu yazınız.
+    Output:
+    kimden: info@sirketim.com
+    kime: <musteri.email>
+    konu: Alacaklar
+    Sayın <musteri.adi>,
+    Geçen ay ödenmesi gereken <musteri.borcu> TL henüz ödenmemiştir.
+
+Task 3: Bir derginin abone takibi yapılacaktır.
+- Dergi sınıfını tasarlayınız
+    - Konu sınıfını tasarlayınız.
+        - baslik:String, icerik:String, sayfa:int alanlarını tanımlayınız
+        - getter ve setter metotlarını yazınız
+        - Constructor'ları tasarlayınız
+- aciklama:String, yil:int, ay:int, fiyat:double, konular:List<Konu> alanlarını tanımlayınız
+- getter ve setter metotlarını tasarlayınız
+- Constructor'ları tasarlayınız
+- Abone sınıfını tasarlayınız
+    - adi:String, soyadi:STring, no:int, email:String
+    - getter ve setter metotlarını tasarlayınız
+    - Constructor metotlarını tasarlayınız
